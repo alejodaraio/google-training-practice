@@ -11,7 +11,6 @@ const precache = [
 self.addEventListener('install', event => {
   event.waitUntil(
       caches.open(cacheName).then(cache => {
-        console.log('SW installed, precache configured: ', precache);
         return cache.addAll(precache)
       })
   );
