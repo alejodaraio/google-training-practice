@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Training Practice</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Google Training practice.">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Google Training Practice">
+    <meta name="apple-mobile-web-app-title" content="Google Training Practice">
+    <meta name="theme-color" content="#FF9800">
+    <meta name="msapplication-navbutton-color" content="#FF9800">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/index.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="manifest" href="./manifest.json"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css"/>
+    <link rel="icon" sizes="128x128" href="/assets/touch/icon-128x128.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="/assets/touch/icon-128x128.png">
+    <link rel="icon" sizes="192x192" href="/assets/touch/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/assets/touch/icon-192x192.png">
+    <link rel="icon" sizes="256x256" href="/assets/touch/icon-256x256.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="/assets/touch/icon-256x256.png">
+    <link rel="icon" sizes="384x384" href="/assets/touch/icon-384x384.png">
+    <link rel="apple-touch-icon" sizes="384x384" href="/assets/touch/icon-384x384.png">
+    <link rel="icon" sizes="512x512" href="/assets/touch/icon-512x512.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/assets/touch/icon-512x512.png">
+</head>
+<body>
+<header>
+    <h1 class="title">Google Training Practice</h1>
+</header>
+<nav>
+    <a title="Page Two" href="/pages/other.html">Page Two</a> |
+    <a title="Page not found example" href="/pagenotfound.html">404 Not Found Page</a>
+</nav>
+<section id="installBanner" class="banner-install">
+    <p id="install-label">Do you want to show this app in your phone?</p>
+    <button aria-labelledby="install-label" id="installBtn">Install app</button>
+</section>
+<section id="random-message" class="random-message">
+    <img src="assets/loading.svg" alt="">
+</section>
+<div class="main">
+    <section class="articles">
+        <article>
+            <a title="Article One" href="#">
+                <header>
+                    <h2 class="title">
+                        Article One
+                    </h2>
+                </header>
+                <figure>
+                    <picture>
+                        <source srcset="./assets/640x320.jpg" media="(min-width:769px)"/>
+                        <source srcset="./assets/480x320.jpg" media="(max-width:768px)"/>
+                        <img src="./assets/480x320.jpg" alt="Media image One"/>
+                    </picture>
+                    <figcaption>Horses in Hawaii</figcaption>
+                </figure>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s
+                </p>
+            </a>
+        </article>
+        <article>
+            <a title="Article Two" href="#">
+                <header>
+                    <h2 class="title">
+                        Article Two
+                    </h2>
+                </header>
+                <figure>
+                    <picture>
+                        <source srcset="./assets/640x320.jpg" media="(min-width:769px)"/>
+                        <source srcset="./assets/480x320.jpg" media="(max-width:768px)"/>
+                        <img src="./assets/480x320.jpg" alt="Media image One"/>
+                    </picture>
+                    <figcaption>Horses in Hawaii</figcaption>
+                </figure>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s
+                </p>
+            </a>
+        </article>
+        <article>
+            <header>
+                <h2 class="title">
+                    <a title="Article Two" href="#">Article Two</a>
+                </h2>
+            </header>
+            <figure>
+                <picture>
+                    <source srcset="./assets/640x320.jpg" media="(min-width:769px)"/>
+                    <source srcset="./assets/480x320.jpg" media="(max-width:768px)"/>
+                    <img src="./assets/480x320.jpg" alt="Media image One"/>
+                </picture>
+                <figcaption>Horses in Hawaii</figcaption>
+            </figure>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s
+            </p>
+        </article>
+        <article>
+            <header>
+                <h2 class="title">
+                    <a title="Article Two" href="#">Article Two</a>
+                </h2>
+            </header>
+            <figure>
+                <picture>
+                    <source srcset="./assets/640x320.jpg" media="(min-width:769px)"/>
+                    <source srcset="./assets/480x320.jpg" media="(max-width:768px)"/>
+                    <img src="./assets/480x320.jpg" alt="Media image One"/>
+                </picture>
+                <figcaption>Horses in Hawaii</figcaption>
+            </figure>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s
+            </p>
+        </article>
+    </section>
+    <aside class="sidebar">
+        <h3>My Items</h3>
+        <ul class="item-list"></ul>
+        <form id="item-form">
+            <label for="itemname">Item Name</label>
+            <input type="text" id="itemname" value="" title="item name"/>
+            <button aria-label="Add new item" type="submit">Add item</button>
+        </form>
+    </aside>
+</div>
+<section class="contact-form">
+    <form id="contact-form">
+        <label for="name">Name</label>
+        <input title="Name" id="name" value="" type="text" required/>
+        <label for="lastname">Lastname</label>
+        <input title="last name" id="lastname" value="" type="text"/>
+        <label for="datetime">Datetime</label>
+        <input title="date time" type="datetime-local" value="" id="datetime"/>
+        <button type="submit">Send</button>
+    </form>
+</section>
+<footer>
+    <p>Copyright 2020 Google Training Practice</p>
+</footer>
+<script src="sw_install.js" type="application/javascript"></script>
+<script defer type="application/javascript" src="js/chuck-messages.js"></script>
+</body>
+</html>
