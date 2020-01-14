@@ -1,11 +1,11 @@
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js')
       .then(reg => {
-        console.log("Service worker is rdy!", reg);
+      //  console.log("Service worker is rdy!", reg);
       });
 }
 else {
-  console.log("Service worker not supported.")
+//  console.log("Service worker not supported.")
 }
 
 let deferredPrompt;
@@ -27,10 +27,10 @@ window.addEventListener('beforeinstallprompt', event => {
     deferredPrompt.userChoice
         .then((choiceResult) => {
           if (choiceResult.outcome === 'accepted') {
-            console.log('User accepted the A2HS prompt');
+          //  console.log('User accepted the A2HS prompt');
           }
           else {
-            console.log('User dismissed the A2HS prompt');
+          //  console.log('User dismissed the A2HS prompt');
           }
           deferredPrompt = null;
         });
