@@ -1,7 +1,7 @@
-const cacheName = 'cache-version-1';
+const cacheName = 'cache-version-2';
 const precache = [
   '/',
-  'js/main.js',
+  'js/chuck-messages.js',
   'css/main.css',
   'index.html',
   'pages/offline.html',
