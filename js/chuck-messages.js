@@ -6,7 +6,7 @@ const ChuckMessage = async () => {
     return message.value;
   }
   catch (error) {
-    return "Unabled to load chuck norris messages";
+    return "Chuck is offline, sry.";
   }
 };
 
