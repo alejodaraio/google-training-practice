@@ -1,4 +1,4 @@
-const cacheName = 'cache-version-9';
+const cacheName = 'cache-version-10';
 const precache = [
   '/',
   'js/main.js',
