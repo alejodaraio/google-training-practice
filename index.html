@@ -39,6 +39,7 @@
     <p id="install-label">Do you want to show this app in your phone?</p>
     <button aria-labelledby="install-label" id="installBtn">Install app</button>
 </section>
+<section class="offline-message">You are offline, check your network setting.</section>
 <section id="random-message" class="random-message">
 </section>
 <div class="main">
@@ -148,7 +149,8 @@
 <footer>
     <p>Copyright 2020 Google Training Practice</p>
 </footer>
-<script defer src="sw_install.js" type="application/javascript"></script>
-<script defer type="application/javascript" src="js/chuck-messages.js"></script>
+<script src="sw_install.js" type="application/javascript"></script>
+<script type="application/javascript" src="js/main.js"></script>
+<script type="application/javascript" src="js/chuck-messages.js"></script>
 </body>
 </html>

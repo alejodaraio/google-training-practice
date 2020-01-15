@@ -1,16 +1,16 @@
 if ('serviceWorker' in navigator) {
+  ;
   navigator.serviceWorker.register('./sw.js')
       .then(reg => {
-      //  console.log("Service worker is rdy!", reg);
+        console.log("Service worker is rdy!");
       });
 }
 else {
-//  console.log("Service worker not supported.")
+  console.log("Service worker not supported.")
 }
 
 let deferredPrompt;
 window.addEventListener('beforeinstallprompt', event => {
-
   // Prevent Chrome 67 and earlier from automatically showing the prompt
   event.preventDefault();
 
@@ -27,10 +27,8 @@ window.addEventListener('beforeinstallprompt', event => {
     deferredPrompt.userChoice
         .then((choiceResult) => {
           if (choiceResult.outcome === 'accepted') {
-          //  console.log('User accepted the A2HS prompt');
-          }
-          else {
-          //  console.log('User dismissed the A2HS prompt');
+            //  console.log('User accepted the A2HS prompt');
+            document.querySelector('#installBanner').style.display = 'none';
           }
           deferredPrompt = null;
         });

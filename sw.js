@@ -1,6 +1,7 @@
-const cacheName = 'cache-version-4';
+const cacheName = 'cache-version-8';
 const precache = [
   '/',
+  'js/main.js',
   'js/chuck-messages.js',
   'css/main.css',
   'index.html',
@@ -17,8 +18,6 @@ self.addEventListener('install', event => {
         return cache.addAll(precache)
       })
   );
-
-
 });
 
 self.addEventListener('activate', event => {
