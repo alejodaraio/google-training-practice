@@ -6,7 +6,7 @@ const ChuckMessage = async () => {
     return message.value;
   }
   catch (error) {
-    throw new Error(error.message);
+    throw new Error(error);
   }
 };
 
