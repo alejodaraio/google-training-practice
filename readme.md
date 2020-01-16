@@ -2,6 +2,12 @@
 
 Own practice to do Mobile Web Specialist cert.
 
+### Features
+
+- HTML5 + Grid
+- Accessibility
+- PWA
+- indexedDB
 
 ### Install
 
@@ -12,7 +18,7 @@ npm install
 ### Localhost
 
 ```
-npm start
+npm run start:local
 ```
 
 ### Site
