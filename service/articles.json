@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Article one",
+    "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "image": {
+      "title": "Image example",
+      "caption": "Caption image example",
+      "presets": {
+        "mobile": "/assets/480x320.jpg",
+        "desktop": "/assets/480x320.jpg"
+      }
+    },
+    "created": "2020-01-16"
+  },
+  {
+    "title": "Article Two",
+    "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "image": {
+      "title": "Image example",
+      "caption": "Caption image example",
+      "presets": {
+        "mobile": "/assets/480x320.jpg",
+        "desktop": "/assets/480x320.jpg"
+      }
+    },
+    "created": "2020-01-16"
+  },
+  {
+    "title": "Article Three",
+    "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "image": {
+      "title": "Image example",
+      "caption": "Caption image example",
+      "presets": {
+        "mobile": "/assets/480x320.jpg",
+        "desktop": "/assets/480x320.jpg"
+      }
+    },
+    "created": "2020-01-14"
+  },
+  {
+    "title": "Article four",
+    "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "image": {
+      "title": "Image example",
+      "caption": "Caption image example",
+      "presets": {
+        "mobile": "/assets/480x320.jpg",
+        "desktop": "/assets/480x320.jpg"
+      }
+    },
+    "created": "2020-01-13"
+  }
+]

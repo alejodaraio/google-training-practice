@@ -3,6 +3,7 @@ const precache = [
   '/',
   'js/main.js',
   'js/chuck-messages.js',
+  'js/articles.js',
   'css/main.css',
   'index.html',
   'pages/offline.html',
