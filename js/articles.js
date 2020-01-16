@@ -3,7 +3,7 @@ import {openDB} from "../node_modules/idb/build/esm/index.js";
 const articlesDB = async () => {
   const ARTICLES_VERSION = 1;
   return await openDB('Articles', ARTICLES_VERSION, {
-    upgrade(database, oldVersion, newVersion, transaction) {
+    upgrade(database) {
       const store = database.createObjectStore('articles', {
         keyPath: 'id',
         autoIncrement: true,
