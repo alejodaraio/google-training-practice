@@ -116,15 +116,27 @@ footer {
     font-size: 1.8rem;
     font-weight: 600;
     cursor: pointer;
+    outline: 0;
 }
 
+.banner-install button:hover {
+    background-color: #e4e4d4;
+}
+.banner-install button:active,
+.banner-install button:focus
+{
+    background-color: darkseagreen;
+}
+
+
 .random-message {
-    background-color: rgb(241, 90, 36);
-    color: #fff;
+    background-color: lightcoral;
+    color: #000000;
     padding: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     display: flex;
     align-items: center;
+    text-shadow: gray;
 }
 
 .random-message:before {
