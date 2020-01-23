@@ -46,11 +46,13 @@
     <h3 id="install-label">Do you want to show this app in your phone?</h3>
     <button aria-labelledby="install-label" id="installBtn">Install app</button>
 </div>
-<section class="offline-message">You are offline, check your network setting.</section>
+<section class="offline-message"><h6>You are offline, check your network setting.</h6></section>
 <div id="random-message" class="random-message">
 </div>
 <div class="main">
-    <section class="articles"></section>
+    <section class="articles">
+        <h3>Articles...</h3>
+    </section>
     <aside class="sidebar">
         <h3>My Items</h3>
         <ul class="item-list"></ul>
@@ -68,8 +70,8 @@
         <input title="Name" id="name" value="" type="text" required/>
         <label for="lastname">Lastname</label>
         <input title="last name" id="lastname" value="" type="text"/>
-        <label for="datetime">Datetime</label>
-        <input title="date time" type="datetime-local" value="" id="datetime"/>
+        <label for="datetime">Date</label>
+        <input title="date time" type="date" value="" id="datetime"/>
         <button type="submit">Send</button>
     </form>
 </section>
