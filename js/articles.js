@@ -53,8 +53,8 @@ const renderArticles = articles => {
                 </header>
                 <figure>
                     <picture>
-                        <source srcset="${article.image.presets.mobile}" media="(min-width:769px)"/>
-                        <source srcset="${article.image.presets.desktop}" media="(max-width:768px)"/>
+                        <source srcset="${article.image.presets.mobile}" media="(max-width:769px)"/>
+                        <source srcset="${article.image.presets.desktop}" media="(min-width:768px)"/>
                         <img src="${article.image.presets.mobile}" alt="${article.image.title}"/>
                     </picture>
                     <figcaption>${article.image.caption}</figcaption>
